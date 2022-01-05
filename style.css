@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    display: flex;
+}
+
+.header-area {
+    font-family: 'Merriweather', serif;
+}
+
+.header-area .description {
+    width: 50%;
+}
+
+.header-area .img-part {
+    width: 50%;
+}
+
+.img-part img {
+    width: 100%;
+}
+
+.heading-text h1 {
+    font-size: 60px;
+}
+
+.heading-text h2 {
+    font-size: 50px;
+    color: orange;
+}
+
+.description {
+    margin-top: 18%;
+    padding-right: 2.5%;
+}
+
+.img-part {
+    padding-left: 2.5%;
+}
+
+p {
+    color: #565353;
+    margin: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.heading-text {
+    border-left: 5px solid #FF5959;
+    padding-left: 15px;
+}
+
+.btn {
+    background-color: #FF5959;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+
+.mission-area {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mission-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #13103A;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.mission-heading span {
+    color: orange;
+}
+
+.item {
+    width: 33.33%;
+    margin-right: 30px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.item img {
+    width: 30%;
+}
+
+.item p {
+    margin-bottom: 0;
+}
+
+.mission {
+    background-color: #EDF5F6;
+}
+
+.vission {
+    background-color: #FFEEEE;
+}
+
+.goal {
+    margin-right: 0;
+    background-color: #FFF4D6;
+}
